@@ -9,8 +9,5 @@ package main
 
 // The answer
 func one(n int) (int, bool) {
-	if n%2 == 0 {
-		return n / 2, true
-	}
-	return n / 2, false
+	return n / 2, n%2 == 0
 }

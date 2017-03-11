@@ -9,10 +9,7 @@ import "fmt"
 // The answer
 func two() {
 	one := func(n int) (int, bool) {
-		if n%2 == 0 {
-			return n / 2, true
-		}
-		return n / 2, false
+		return n / 2, n%2 == 0
 	}
 
 	fmt.Println(one(4))

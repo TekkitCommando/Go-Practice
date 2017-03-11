@@ -16,7 +16,3 @@ func greatestNum(n ...int) {
 	}
 	fmt.Println(greatest)
 }
-
-func main() {
-	greatestNum(1, 10, 7, 9, 12, 27)
-}
