@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func arrayExample() {
 	var x [58]int
 
 	fmt.Println(x)
