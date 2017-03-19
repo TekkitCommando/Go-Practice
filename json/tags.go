@@ -8,11 +8,11 @@ import (
 /*
 The '-' says to not include this field in json
 Run this to see what happens with 'json:"something else"'
- */
+*/
 type Person struct {
 	First string
-	Last string `json:"-"`
-	Age int `json:"something else"`
+	Last  string `json:"-"`
+	Age   int    `json:"something else"`
 }
 
 func main() {

@@ -7,8 +7,8 @@ import (
 
 type Person struct {
 	First string
-	Last string
-	Age int
+	Last  string
+	Age   int
 }
 
 func main() {
