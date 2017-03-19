@@ -19,12 +19,18 @@ func main() {
 	fmt.Println("---------------------")
 
 	s := []string{"Zeno", "John", "Al", "Jenny"}
-	sort.Sort(sort.StringSlice(s))
+	sort.Strings(s)
 	fmt.Println(s)
 
 	fmt.Println("---------------------")
 
 	n := []int{7, 4, 8, 2, 9, 19, 12, 32, 3}
-	sort.Sort(sort.IntSlice(n))
+	sort.Ints(n)
 	fmt.Println(n)
+
+	fmt.Println("---------------------")
+
+	r := []string{"Zeno", "John", "Al", "Jenny"}
+	sort.Sort(sort.Reverse(sort.StringSlice(r)))
+	fmt.Println(r)
 }
