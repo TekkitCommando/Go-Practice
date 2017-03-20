@@ -1,11 +1,11 @@
 package main
 
 import (
-	"sync"
 	"fmt"
-	"time"
 	"math/rand"
+	"sync"
 	"sync/atomic"
+	"time"
 )
 
 // Atomicity is just a smaller way of preventing a data race
@@ -30,4 +30,3 @@ func incrementor(s string) {
 	}
 	wg.Done()
 }
-
